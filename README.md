@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">- Analista de suporte<br>- System Analytic<br>- TI Assistant at @Atacadão</p>
+<p align="left">- Support analyst<br>- Systems analyst<br>- IT Assistant at @Atacadão</p>
 
 ###
 
