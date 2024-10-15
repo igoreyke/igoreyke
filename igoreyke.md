@@ -1,51 +1,19 @@
-<h2 align="left">About me</h2>
-
-###
-
-<p align="left">- Support analyst<br>- Systems analyst<br>- IT Assistant at @Atacadão</p>
-
-###
-
-<p align="left">Techs</p>
-
-###
-
-<div align="left">
-  <img src="https://skillicons.dev/icons?i=azure" height="40" alt="azure logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=java" height="40" alt="java logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=linux" height="40" alt="linux logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=ps" height="40" alt="adobephotoshop logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=ae" height="40" alt="adobeaftereffects logo"  />
-</div>
-
-###
-
-<p align="left">Stats</p>
-
-###
-
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=igoreyke&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=bear&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=igoreyke&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=bear&hide_border=false&order=2" height="150" alt="languages graph"  />
-  <img src="https://streak-stats.demolab.com?user=igoreyke&locale=en&mode=daily&theme=bear&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-</div>
-
-###
-
-<div align="left">
-  <a href="https://www.linkedin.com/in/igor-eyke-38349319a/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
-  </a>
-  <a href="_insside" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo"  />
-  </a>
-  <a href="https://www.instagram.com/igoreyke/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo"  />
-  </a>
-</div>
-
-###
+1. Confiabilidade e Disponibilidade
+O SLA define níveis mínimos de disponibilidade para os serviços oferecidos, como máquinas virtuais, bancos de dados e serviços de rede. Isso ajuda a garantir que seus aplicativos e dados estarão acessíveis de forma confiável, mesmo em cenários de alta demanda ou falhas de infraestrutura.
+Exemplo: Um SLA típico pode garantir 99,9% de disponibilidade, o que significa um tempo de inatividade muito reduzido ao longo de um ano.
+2. Suporte para Alta Escalabilidade
+Para aplicações que precisam crescer rapidamente, o Azure oferece garantias de desempenho ao escalar os recursos conforme a demanda aumenta. O SLA assegura que a escalabilidade será realizada de forma estável e eficiente.
+3. Confiança e Mitigação de Riscos
+Ao oferecer garantias de SLA, a Microsoft se compromete a reparar ou compensar falhas nos serviços caso a disponibilidade prometida não seja cumprida. Isso reduz os riscos para o negócio, pois há compensação financeira (créditos) se o SLA não for atendido.
+As organizações podem planejar seus aplicativos críticos sabendo que contam com uma infraestrutura estável e com garantia de disponibilidade.
+4. Melhoria no Atendimento ao Cliente
+Empresas que utilizam o Azure podem definir expectativas claras com seus clientes em termos de disponibilidade e desempenho. O SLA permite que as organizações ofereçam seus próprios SLAs aos clientes, aumentando a credibilidade dos seus serviços.
+5. Planejamento de Continuidade de Negócios
+O SLA ajuda as organizações a planejar estratégias de continuidade de negócios e recuperação de desastres, garantindo que os serviços estarão disponíveis em cenários críticos.
+6. Monitoramento e Relatórios
+Através do SLA, as empresas podem monitorar o desempenho do Azure e avaliar se ele atende aos requisitos de disponibilidade. Se o SLA for violado, as empresas podem receber notificações, ajudando na tomada de decisão rápida para mitigar impactos.
+7. Garantia de Qualidade de Serviço
+O SLA garante que os recursos contratados, como capacidade de processamento e armazenamento, sejam entregues com a performance prometida, ajudando a garantir a estabilidade dos aplicativos.
+8. Suporte Técnico Prioritário
+Dependendo do tipo de serviço e contrato, o Azure pode fornecer suporte técnico em níveis avançados, garantindo uma resposta rápida a incidentes, conforme o SLA acordado.
+Esses benefícios tornam o uso do Azure uma escolha confiável para empresas que dependem de soluções de nuvem de alta disponibilidade e desempenho.
