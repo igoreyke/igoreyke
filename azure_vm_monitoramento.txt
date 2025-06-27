@@ -1,0 +1,75 @@
+# 💻 Monitoramento de Máquinas Virtuais no Microsoft Azure
+
+Este repositório foi criado como parte do desafio prático da DIO para aplicar os conhecimentos adquiridos sobre **monitoramento no Azure**, com foco em **máquinas virtuais (VMs)**. O objetivo é documentar as etapas realizadas, recursos utilizados e boas práticas para garantir a visibilidade e o controle sobre o ambiente em nuvem.
+
+---
+
+## 🧠 Objetivos de Aprendizagem
+
+✅ Aplicar na prática os conceitos de monitoramento de recursos no Azure  
+✅ Criar alertas e logs para eventos críticos (ex: exclusão de VMs)  
+✅ Documentar tecnicamente os processos realizados  
+✅ Utilizar o GitHub como ferramenta de portfólio técnico  
+
+---
+
+## 🛠️ Tecnologias e Ferramentas
+
+- Microsoft Azure  
+- Azure Monitor  
+- Azure Log Analytics  
+- Azure Alerts  
+- Git & GitHub  
+- Markdown  
+
+---
+
+## 📌 Etapas Realizadas
+
+1. **Criação de uma Máquina Virtual no Azure**
+   - Escolha da imagem: Ubuntu Server 22.04 LTS
+   - Configuração de grupo de recursos, rede e segurança
+
+2. **Habilitação do Monitoramento**
+   - Ativação do Log Analytics Workspace
+   - Vinculação da VM ao Workspace
+   - Coleta de logs e métricas
+
+3. **Criação de Alertas**
+   - Alerta para *exclusão de recursos*
+   - Alerta para *CPU alta*
+   - Configuração de ações via grupo de ação (Action Group)
+
+4. **Visualização via Azure Monitor**
+   - Insights da VM
+   - Gráficos de métricas
+   - Log de atividades
+
+---
+
+## 📸 Capturas de Tela
+
+As imagens estão disponíveis na pasta `/images`:
+
+- 🔍 insights-config.png → Tela de Insights ativado
+- ⚠️ alerta-vm.png → Alerta de exclusão configurado
+- 📊 log-activity.png → Log de atividades no portal
+
+---
+
+## ✍️ Anotações e Dicas
+
+Você pode acessar as anotações feitas durante o projeto em `anotacoes.md`, bem como algumas dicas úteis para implementar em projetos reais em `dicas.md`.
+
+---
+
+## 🚀 Conclusão
+
+Esse laboratório foi essencial para consolidar os conhecimentos de monitoramento em ambientes de nuvem. Com as ferramentas certas, como o Azure Monitor, é possível **antecipar falhas**, **responder proativamente** e **garantir a disponibilidade dos recursos críticos**.
+
+---
+
+## 🔗 Referências
+
+- [Documentação Oficial - Monitoramento de VMs no Azure](https://learn.microsoft.com/pt-br/azure/azure-monitor/vm/vminsights-overview)  
+- [Documentação GitHub](https://docs.github.com/)
