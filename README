@@ -1,0 +1,60 @@
+# Guia Prático de Gestão de Máquinas Virtuais no Azure
+
+## Introdução
+Este guia reúne conceitos, práticas e dicas para gerenciar máquinas virtuais (VMs) no Microsoft Azure. O objetivo é ajudar no entendimento das principais operações e boas práticas para criação, backup, monitoramento e recuperação de VMs.
+
+---
+
+## 1. Criação de Máquinas Virtuais
+
+### Passos básicos
+- Acesse o portal do Azure: https://portal.azure.com
+- Navegue até **Máquinas Virtuais** > **Criar**
+- Escolha a assinatura, grupo de recursos e região
+- Selecione a imagem do sistema operacional (Windows/Linux)
+- Configure tamanho, autenticação (senha ou chave SSH) e discos
+- Configure rede, monitoramento e outras opções conforme necessidade
+- Revise e crie a VM
+
+### Dicas
+- Utilize tamanhos otimizados para sua carga de trabalho
+- Prefira discos gerenciados para melhor performance e segurança
+- Use grupos de segurança para controlar o tráfego
+
+---
+
+## 2. Backup e Recuperação
+
+### Configuração do Recovery Services Vault
+- Crie um **Recovery Services Vault** na mesma região da VM
+- Instale e registre o agente de backup se necessário
+- Configure políticas de backup (frequência e retenção)
+
+### Backup e restauração
+- Backup pode ser ativado para VMs existentes
+- Restauração pode ser completa da VM ou seletiva de arquivos
+- Utilize snapshots para recuperação rápida de discos
+
+---
+
+## 3. Monitoramento
+
+### Azure Monitor e Logs
+- Configure diagnósticos e métricas para VMs
+- Use **Log Analytics** para coletar e consultar logs
+- Crie regras de alerta para eventos críticos e uso elevado de recursos
+
+---
+
+## 4. Automação
+
+### Exemplo com Azure CLI
+
+```bash
+# Criar uma VM simples no Azure CLI
+az vm create \
+  --resource-group MeuGrupoDeRecursos \
+  --name MinhaVM \
+  --image UbuntuLTS \
+  --admin-username azureuser \
+  --generate-ssh-keys
